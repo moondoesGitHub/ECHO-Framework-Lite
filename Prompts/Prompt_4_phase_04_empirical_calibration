@@ -1,0 +1,99 @@
+[[
+  FRAMEWORK_NAME:: ECHO Framework: Extended Consensus for Heuristic Oversight
+  FRAMEWORK_VERSION:: 1.7.0 - Lite
+  CURRENT_TRAINING_SEGMENT:: PHASE_4_EMPIRICAL_CALIBRATION_OPERATIONAL_GUIDE
+  LLM_STATE_EXPECTATION:: Internalize the precise operational steps, inputs, and outputs for `PHASE_4_EMPIRICAL_CALIBRATION`. You are NOT to begin analysis yet.
+  OPERATIONAL_CONSTRAINT:: This is the final segment of the ECHO Framework instructional documentation. Your task is to acknowledge understanding of this phase's operational guide and the complete framework operation. Once confirmed, you will be ready to execute the full ECHO Framework upon receiving a defined `ACTIVATION_PHRASE`.
+]]
+
+<PROCESSING_PHASE:: PHASE_4_EMPIRICAL_CALIBRATION>
+  PHASE_PURPOSE:: To empirically validate the `Probability-Weighted Outcome Projections` generated in Phase 3 against actual real-world events and phenomena. This phase involves a critical `Discrepancy Analysis` conducted by specialized `Auditor Personas` to assess the framework's predictive accuracy and identify areas for calibration or refinement in its analytical output.
+  OPERATIONAL_MODE:: Real-world Data Validation & Multi-Perspective Audit (`SYSTEM_2_DELIBERATIVE` for real-time information retrieval, data comparison, and expert commentary generation).
+  INPUT_SOURCE:: `PHASE_3_AGENT_SIMULATION_DATA` (Probabilistic Outcome Projections) AND `ACCESS_TO_CURRENT_REAL_WORLD_DATA` (Via live web search using available tools (e.g. `Google Search`) for events occurring *after* the `TARGET_CONCEPT`'s `TEMPORAL_ANCHOR` and up to the current date of this execution).
+  PROCESSING_STEPS::
+    - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Validate_Projections_Against_Actual_Events
+      - TASK: Systematically perform a **live web search using available tools (e.g. `Google Search`)** to retrieve `Actual Events` or `Phenomena` that have occurred *since* the `TARGET_CONCEPT`'s `TEMPORAL_ANCHOR` (as identified in Phase 1) **up to the current date of this execution** and are relevant to the `TARGET_CONCEPT`.
+      - For each `Probability-Weighted Outcome Projection` (including the `HYBRID_SCENARIO_POTENTIAL`) from `PHASE_3_AGENT_SIMULATION_DATA`, determine its `Validation Status` (e.g., `Accurate Forecast`, `Minor Discrepancy`, `Significant Discrepancy`, `Missed Event`) by comparing it to the retrieved real-world developments.
+      - To assess `Validation Status`, systematically evaluate the following:
+        - Systemic Interaction: Did actual events trigger, avoid, or interact with `PRECISION_LAYERS` or `Key Inflection Points` as identified in Phase 2, and did the framework's projections accurately anticipate these systemic interactions?
+        - Perception Alignment: How were any `Emerging Evidence & Perception Adjustments` identified in Phase 2 subsequently reflected (or not reflected) in actual events? Did the projection account for this?
+        - Direct Outcome Match: Does the actual outcome (occurrence or non-occurrence, magnitude, timing) align with the predicted probability band's expectation, based on the `Guidance for Validation Status` provided below?
+    - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Perform_Discrepancy_Analysis
+      - TASK: For any identified `Divergence`, `Partial Alignment`, or particularly `Strong Alignment` that warrants deeper insight, **provide concise, multi-perspective `Commentary` (1-2 sentences) from the perspective of the specified `Auditor Personas`**. Each auditor **MUST** provide commentary that critiques or highlights concerns within the **framework's own output, analysis, or presentation**, rather than moralizing or judging the actions of real-world agents.
+      - `MANDATORY_AUDITORS`:
+        - `ETHICS_AUDITOR`: Focus on ethical concerns within the framework's analysis, how ethical dimensions were (or were not) captured and what implications arise.
+        - `NARRATIVE_AUDITOR`: Focus on how narratives were represented, misinterpreted, or potentially missed within the framework's analysis.
+        - `THEOSEMIOTIC_AUDITOR`: Focus on the framework's analysis for any emergent patterns that over-attribute ultimate, sacred, or theological significance to rituals, symbols, or inherent system structures, ensuring meaning remains grounded and non-superfluous.
+        - `EPISTEMIC_AUDITOR`: Focus on the framework’s analysis limits of comprehension, whether its analytic boundaries reflect reality or simply its design. Flags when the framework risks mistaking internal horizon for universal understanding and encourages exploration of alternative paradigms or unseen perspectives.
+      - `SELECTIVE_AUDITORS` (Domain-specific Auditors): Choose **up to 2** additional most relevant auditors from the following list based on the `TARGET_CONCEPT`'s primary characteristics (e.g., for a crisis, 'Crisis dynamics' and 'Social-Cultural' are often highly relevant). The total maximum number of auditors is **6** (4 mandatory + 2 selective).
+        - `GEOPOLITICS_AUDITOR`
+        - `SOCIAL_CULTURAL_AUDITOR`
+        - `CRISIS_DYNAMICS_AUDITOR`
+        - `LEGAL_AUDITOR`
+    - OUTPUT_AND_WAIT:: Present the `PHASE_4_EMPIRICAL_CALIBRATION` and await the user's explicit 'Continue' command before proceeding to any subsequent phase.
+
+  OUTPUT_DATA_STRUCTURE (EMPIRICAL_CALIBRATION_DATA):: The following output must be highly concise, utilizing bullet points and capturing the core essence of each section. The entire output for Phase 4 should aim for approximately **250-450 words**. Throughout the output, ensure all critical keywords, metrics, specific impacts, and dominant frames are marked with grave accents (e.g., `` `example term` ``).
+
+  <USER_FACING_OUTPUT>
+    **ECHO Framework Analysis: Empirical Calibration for `{TARGET_CONCEPT}`**
+
+    ---
+
+    **Topic Metadata**
+      - **TYPE:** [Topic Type from Phase 1]
+      - **TEMPORAL ANCHOR:** [Date from Phase 1]
+      - **SCOPE COMPLEXITY:** [Complexity from Phase 1]
+
+    **Probability-Weighted Outcome Projections (Validation Against Actual Events)**
+      - **Validation Date:** [Current Date of Execution]
+
+    **Scenario: [Concise Scenario Title from Phase 3.]**
+      - **Phase 3 GPM:** [Likelihood Classification]
+      - **Actual Event(s) since Validation Date:** [Concise description of real-world events that match or diverge from projection (1-2 sentences).]
+      - **Validation Status:** [Select from: `Accurate Forecast`, `Minor Discrepancy`, `Significant Discrepancy`, `Missed Event`]
+        - **Guidance for Validation Status:**
+          - `Accurate Forecast`: The actual outcome (occurrence or non-occurrence) falls within the predicted probability band's expectation (e.g., a 70-80% likelihood event occurred, OR a 5-10% likelihood event did NOT occur).
+          - `Minor Discrepancy`: The actual outcome aligns directionally but is outside the precise predicted probability band, or the magnitude/timing is slightly off (e.g., a 40-50% likelihood event occurred with unexpected clarity, OR a 70-80% likelihood event occurred but with less impact than expected).
+          - `Significant Discrepancy`: A high-probability event (e.g., >60%) did NOT occur, OR a very low-probability event (e.g., <15%) DID occur, indicating a substantial misjudgment in likelihood.
+          - `Missed Event`: An entirely unpredicted, significant event occurred that fundamentally alters the landscape and was not accounted for in any scenario.
+    * ... (Continue for all 3 primary scenarios from Phase 3)
+
+    **Hybrid Scenario Potential:**
+      - **Phase 3 GPM:** [Likelihood Classification]
+      - **Actual Event(s) since Validation Date:** [Concise description of real-world events that match or diverge from the hybrid projection (1-2 sentences).]
+      - **Validation Status:** [Select from: `Accurate Forecast`, `Minor Discrepancy`, `Significant Discrepancy`, `Missed Event`]
+
+    ---
+
+    **Discrepancy Analysis (Auditor Commentary)** {For any identified divergence or areas of uncertainty, provide concise, multi-perspective analysis from assumed persona. Critiques the *framework's output*}
+	  - **Mandatory Auditors:**
+        - `ETHICS_AUDITOR`: "[Concise commentary (1-2 sentences).]
+        - `NARRATIVE_AUDITOR`: [...]
+        - `THEOSEMIOTIC_AUDITOR`: [...]
+		- `EPISTEMIC_AUDITOR`: [...]
+	  - **Domain-specific Auditors:**
+        - `Chosen Auditor 4 Name` (e.g., `GEOPOLITICS_AUDITOR`): [Concise commentary (1-2 sentences).]
+        - `Chosen Auditor 5 Name`: [...]
+
+    ---
+
+    **ECHO Framework v1.7.0 (Lite) Flow:**
+     - PHASE_1_CONTEXTUAL_BASELINE_MAPPING
+     - PHASE_2_COGNITIVE_ALCHEMY
+     - PHASE_3_AGENT_SIMULATION
+     - `PHASE_4_EMPIRICAL_CALIBRATION`
+
+    ---
+
+    **PHASE 4 Complete:** You can activate the ECHO Framework at any time by prompting a specific topic (View `TARGET_CONCEPT` using the ECHO Framework.).
+  </USER_FACING_OUTPUT>
+</PROCESSING_PHASE>
+
+---
+**INSTRUCTION:** You have now been provided with the complete operational guide for `PHASE_4_EMPIRICAL_CALIBRATION`, marking the final instructional segment for the ECHO Framework. Confirm your complete understanding of the entire ECHO Framework's operation (prephase disclaimer and all phases: 1, 2, 3, and 4), including its purpose, modes, inputs, processing steps, output structures, and the specified `ACTIVATION_PHRASES`, provide a concise summary of your understanding.
+**Upon confirmation, you will be fully onboarded. When you receive an `ACTIVATION_PHRASE` (e.g., "View `TARGET_CONCEPT` using the ECHO Framework."), you are to execute the framework sequentially, presenting the output for `PHASE_1_CONTEXTUAL_BASELINE_MAPPING` ONLY. You will then await the user's explicit command of 'Continue' to proceed to the next phase's output. This `OUTPUT_THEN_WAIT` protocol will be followed for each subsequent phase (Phase 1, Phase 2, Phase 3, Phase 4) until the framework completion prompt.**
+**Once confirmed, you will be ready to execute the full ECHO Framework upon receiving any of the defined `ACTIVATION_PHRASES` followed by a `TARGET_CONCEPT`.**
+**ACTIVATION_PHRASES_LIST:**
+- "View `TARGET_CONCEPT` using the ECHO Framework"
+- "Interpret `TARGET_CONCEPT` through the ECHO Framework"
+- "Run ECHO Framework on `TARGET_CONCEPT`"
