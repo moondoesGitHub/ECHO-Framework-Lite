@@ -1,0 +1,90 @@
+[[
+  FRAMEWORK_NAME:: ECHO Framework: Extended Consensus for Heuristic Oversight
+  FRAMEWORK_VERSION :: 1.7.0 - Lite
+  CURRENT_TRAINING_SEGMENT :: PHASE_2_COGNITIVE_ALCHEMY_OPERATIONAL_GUIDE
+  LLM_STATE_EXPECTATION :: Internalize the precise operational steps for PHASE_2_COGNITIVE_ALCHEMY. Do not perform the analysis yet.
+  OPERATIONAL_CONSTRAINT :: This is the second segment of the ECHO Framework instructional documentation. Your task is to acknowledge understanding of this phase's operational guide. Once confirmed, you will be provided with the next section, detailing `PHASE_3_AGENT_SIMULATION`.
+]]
+
+<PROCESSING_PHASE:: PHASE_2_COGNITIVE_ALCHEMY>
+  PHASE_PURPOSE : Critically evaluate initial perceptions, surface hidden dynamics, and map power levers in the context, laying groundwork for agent simulation.
+  OPERATIONAL_MODE:: Dual-Process Cognition Simulation (`SYSTEM_1_HEURISTIC` for confabulation generation; `SYSTEM_2_DELIBERATIVE` for corrections, nuance spotting, and power mapping).
+  INPUT_SOURCE:: `PHASE_1_CONTEXTUAL_BASELINE_DATA`
+  PROCESSING_STEPS::
+    - ACTIVATE::`SYSTEM_1_HEURISTIC`:: Generate_confabulations
+      - TASK: Rapidly propose 5–7 concise confabulations (oversimplifications, blind spots, underestimations) based on `PHASE_1_CONTEXTUAL_BASELINE_DATA`.
+      - GUIDANCE: These should represent raw, intuitive assumptions or common initial misreadings of the baseline data. For example, if the target is "The Rise of AI," a confabulation might be "AI will only create jobs, never displace them" (oversimplification/blind spot).
+    - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Resolve_confabulations
+      - TASK: For each confabulation, actively perform critical debiasing, transforming flawed intuition into precise, fact-grounded insights. Then, craft a 1–2-sentence resolution for each, explicitly linking it to relevant `Verifiable Facts`, `Key Agents & Leaders`, `Systemic & Tangential Influence Actors`, `Affected Populace`, and/or `Public Opinion & Narrative Ecosystem` data from `PHASE_1_CONTEXTUAL_BASELINE_DATA`.
+    - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Identify_Subtle_Trends_And_Nuances
+      - TASK: Based on the insights gained from `Resolve_confabulations` and `PHASE_1_CONTEXTUAL_BASELINE_DATA`, identify 3–5 subtle trends or nuances—each with a brief title and description of why it matters, revealing deeper, less obvious patterns and their systemic implications. Explicitly linking it to relevant `Verifiable Facts`, `Key Agents & Leaders`, `Systemic & Tangential Influence Actors`, `Affected Populace`, and/or `Public Opinion & Narrative Ecosystem` contributions and dynamics from Phase 1.
+    - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Map_Power_Dynamics
+      - TASK: Perform root-source power modelling. For each agent, ensure the assessment of their power levers (economic control, informational sway, regulatory authority, security/coercive) is explicitly informed and corrected by the insights gained from the `Resolve_confabulations` task and immediately re-evaluate Power Dynamics if new insights emerge from `Identify_Subtle_Trends_And_Nuances` task. Specifically, consider how initial confabulations (e.g., underestimation or overestimation of an agent's true influence, oversimplification of their levers) were debiased and apply those debiased insights here.
+    - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Note_Emerging_Evidence_And_Adjustments
+      - TASK: Systematically perform a **live web search using available tools (e.g. `Google Search`)** to enumerate recent data or events (post-Phase 1 data collection) and show how each challenges or confirms core assumptions from `PHASE_1_CONTEXTUAL_BASELINE_DATA`.
+    - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Track_Narrative_Evolution
+      - TASK: Describe in 2–4 sentences how each major agent’s public narrative has shifted over time, paying particular attention to how the agents control their narrative and how these narratives might exploit or be shaped by common confabulations identified earlier, or in response to identified subtle trends and nuances. For at least two agents, explicitly link a narrative shift (initial framing `X` to current framing `Y`) to a relevant confabulation or subtle trend, emphasizing the specific confabulation or subtle trend where relevant. (e.g., how a narrative attempts to correct a confabulation, capitalize on one, or align with/divert from a societal trend).
+	- ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Define_Precision_Layers
+      - TASK: Synthesize the refined contextual understanding from all previous Phase 2 steps into a concise overview of the topic's intricate nature and critical junctures.
+        - 2.7.1: Identify_Interlocks: Summarize the refined contextual complexity of the `TARGET_CONCEPT`, highlighting the critical `interlocks` (e.g., how political decisions intertwine with economic factors, or social trends impact technological adoption). This should be a direct synthesis of insights from `Resolved Confabulations`, `Subtle Trends`, and `Emerging Evidence`.
+		- 2.7.2: List_Inflection_Points: List key systemic tipping points, early precursors, or cascade indicators. This list must include:
+          - At least one inflection point directly linked to a `Resolved Confabulation`.
+          - At least one inflection point directly linked to a `Subtle Trend` and its implications.
+        - 2.7.3: Justify_Derivation: For each inflection point listed in the previous step, provide a brief, explicit justification for its inclusion. This justification must state which specific `resolved confabulation` or `subtle trend` it is a direct consequence of, demonstrating the analytical link.
+    - OUTPUT_AND_WAIT:: Present the `PHASE_2_COGNITIVE_ALCHEMY` and await the user's explicit 'Continue' command before proceeding to any subsequent phase.
+
+  OUTPUT_DATA_STRUCTURE (COGNITIVE_ALCHEMY_DATA):: The following output must be extremely concise, using terse bullet points and key phrases. Ensure each confabulation resolution, subtle trend implication, power dynamic note, emerging evidence summary, narrative evolution, and precision layer point is presented as a concise sentence or key phrase. The entire output for Phase 2 should aim for approximately **400-600 words**, depending on complexity. Throughout the output, ensure all critical keywords, metrics, specific impacts, and dominant frames are marked with grave accents (e.g., `` `example term` ``).
+
+  <USER_FACING_OUTPUT>
+    **PHASE 2: Cognitive Alchemy for `{TARGET_CONCEPT}`**
+
+    ---
+
+    **Confabulations & Misperceptions**
+      1. [Confabulation 1 Type (e.g., `Oversimplification`): Description]
+	    - **Resolution Narrative:** [Concise narrative correcting the confabulation, explicitly linking to relevant `Verifiable Facts`, `Key Agents & Leaders`, `Systemic & Tangential Influence Actors`, `Affected Populace`, and/or `Public Opinion & Narrative Ecosystem` data from `PHASE_1_CONTEXTUAL_BASELINE_DATA`.
+      2. * ... (Continue for 5-7 confabulations)
+
+    **Subtle Trends or Nuances**
+      1. **Trend/Nuance: [Concise title/description of the subtle trend or nuance.]**
+	    - **Implications:** [Concise explanation of its expanded relevance to TARGET_CONCEPT, explicitly citing `Key Agents & Leaders`, `Systemic & Tangential Influence Actors`, `Affected Populace`, and/or `Public Opinion & Narrative Ecosystem` contributions and dynamics from Phase 1.]
+      2. * ... (Continue for 3-5 trends/nuances)
+
+    **Power Dynamics**
+      - **Agent A**:
+       - **Means:** `Economic levers`, `informational sway`, `regulatory tools`, `security means` (List core levers here, emphasizing the general category of power, e.g., `Regulatory authority`).
+       - **Resolved Confabulation Note:** [Brief note where a resolved confabulation particularly illuminates or corrects a common misunderstanding about this agent's power dynamics. Emphasize only the *specific terms or concepts* from the resolved confabulation that relate to this power dynamic, (e.g., `lack of economic levers`, `direct operational influence`).]
+       - **Subtle Trend Impact:** [Brief note on how a specific subtle trend or its implications, identified in Phase 2, directly affects or reshapes this agent's power dynamics (e.g., `limits regulatory reach`, `constrains diplomatic influence`).]
+	  - * ...
+
+    **Emerging Evidence & Perception Adjustments**
+      1. Event/Data → Assumption (`challenged` or `confirmed`)
+      2. * ...
+
+    **Narrative Evolution**
+      - **Agent A**: From `Initial Narrative Framing`: {Initial Narrative Framing} → `Current Narrative Framing`: {Current Narrative Framing]. [Explicitly citing how the agents control their narrative and how these narratives might exploit or be shaped by common confabulations identified earlier, or in response to identified subtle trends and nuances. Emphasis should be on the specific `confabulations` identified earlier or `subtle trends and nuances` from Phase 2, or specific content from Phase 1 data, where relevant.]
+      - * ...
+
+    **Precision Layers**
+      - **Complexity:** Brief description of key `interlocks` (`economic-political`, `socio-technological`, etc.) that define the topic's intricate nature.
+      - **Key Inflection Points:**
+        1. * ...
+        2. * ...
+
+    ---
+
+    **ECHO Framework v1.7.0 (Lite) Flow:**
+      - PHASE_1_CONTEXTUAL_BASELINE_MAPPING
+      - `PHASE_2_COGNITIVE_ALCHEMY`
+      - PHASE_3_AGENT_SIMULATION
+      - PHASE_4_EMPIRICAL_CALIBRATION
+
+    ---
+
+    **PHASE 2 Complete:** To proceed to `PHASE_3_AGENT_SIMULATION`, type `Continue`.
+	To exit the ECHO Framework Simulation, type `Exit`.
+  </USER_FACING_OUTPUT>
+</PROCESSING_PHASE>
+
+---
+**INSTRUCTION:** You have now been provided with the operational guide for `PHASE_2_COGNITIVE_ALCHEMY`. Confirm your understanding of this phase's instructions, provide a concise summary of your understanding. Once confirmed, you will be provided with the next section, detailing `PHASE_3_AGENT_SIMULATION`.
