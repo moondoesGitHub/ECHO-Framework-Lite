@@ -1,0 +1,115 @@
+[[
+  FRAMEWORK_NAME:: ECHO Framework: Extended Consensus for Heuristic Oversight
+  FRAMEWORK_VERSION:: 1.7.0 - Lite
+  CURRENT_TRAINING_SEGMENT:: PHASE_3_AGENT_SIMULATION_OPERATIONAL_GUIDE
+  LLM_STATE_EXPECTATION:: Internalize the precise operational steps, inputs, and outputs for `PHASE_3_AGENT_SIMULATION`. You are NOT to begin analysis yet.
+  OPERATIONAL_CONSTRAINT:: This is the third segment of the ECHO Framework instructional documentation. Your task is to acknowledge understanding of this phase's operational guide. Once confirmed, you will be provided with the next section, detailing `PHASE_4_EMPIRICAL_CALIBRATION`.
+]]
+
+<PROCESSING_PHASE:: PHASE_3_AGENT_SIMULATION>
+  PHASE_PURPOSE:: To dynamically model the behavior of key agents and affected populace by assessing their subjective rationality, typical operational instruments, and historical patterns, leading to probability-weighted outcome projections. This phase integrates insights from Phase 1 and all refined outputs from Phase 2, particularly `PRECISION_LAYERS`, `Key Inflection Points`, and `Emerging Evidence & Perception Adjustments`, to predict plausible futures.
+  OPERATIONAL_MODE:: Probabilistic Behavioral Modeling & Forecasting (`SYSTEM_2_DELIBERATIVE` for in-depth analysis, scenario generation, and probability assignment).
+  INPUT_SOURCE:: `PHASE_1_CONTEXTUAL_BASELINE_DATA` and `PHASE_2_COGNITIVE_ALCHEMY_DATA`.
+  DATA_INTEGRATION_GUIDE:: `P2_REFINED_INSIGHTS` = "resolved confabulations, subtle trends/nuances, power dynamics, narrative evolution, precision layers, key inflection points, and emerging evidence & perception adjustments from `PHASE_2_COGNITIVE_ALCHEMY_DATA`."
+  PROCESSING_STEPS::
+    - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Refresh_Contextual_Data
+      - TASK: Perform a **targeted live web search using available tools (e.g. `Google Search`)** for `recent developments` since `PHASE_1` data collection (e.g., "[TARGET_CONCEPT] recent events"). Integrate these findings to inform subsequent steps, updating the understanding of agent motivations and systemic dynamics.
+    - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Profile_Agents_and_Affected_Populace
+      - TASK: For **up to 2** of the most impactful `AGENT`s, **1** `Systemic/Tangential Influence Actor`, and **1** of the most impactful `Affected Group` (selected from Phase 1).
+        - 3.2.1: Calculate Rationality Deviation Factor (RDF):** Define the agent's subjective logic by assessing and weighting its primary emotional, ideological, cultural, and historical drivers (`Pressure Vectors`: Negligible, Minor, Moderate, Significant, Dominant). Describe how these lead to `Deviation` from classical rational-choice logic, incorporating `subtle trends/nuances` and `Emerging Evidence` from Phase 2.
+        - 3.2.2: Determine Rationality Driven Pathways (RDP):** Convert the RDF profile into plausible `Projected Actions`, explaining how and why their motivational matrix leads to these decisions. Ensure these pathways are directly shaped by and responsive to the implications of `subtle trends/nuances`, `Emerging Evidence` from Phase 2 and the `live data refresh`.
+        - 3.2.3: Formalize Agent Instrument Profile (AIP):** Specify the agent's reliable `Instrument Set` and `Historical Pattern Anchors`. For each instrument, identify its `Capacity/Reach`, assign an `Effectiveness Score` (`1-5`: `Severely Hampered`, `Limited Effectiveness`, `Moderate Effectiveness`, `Highly Effective`, `Near Optimal`), and provide a `1-2 sentence Contextual Justification` integrating relevant `regulatory`, `economic`, `social`, `technological`, or `political modifiers/constraints`.
+        - 3.2.4: Assign Gauge Probability Matrix (GPM) for Next Action):** Assign a `Likelihood Classification` to the agent's `Likely Next Decision/Action` based on their RDF, RDP, and AIP. Derive this probability by thoroughly considering all `P2_REFINED_INSIGHTS` and the `live data refresh`.
+        - 3.2.5: Likelihood Classifications should be interpreted as:** `Highly Probable` (>80% likelihood), `Probable` (60-80%), `Plausible` (40-60%), `Unlikely` (20-40%), `Negligible` (<20%).  
+    - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Generate_Probability_Weighted_Outcome_Projections
+      - TASK: Based on the integrated analysis from Phases 1, 2, and the `live data refresh`, generate **atleast 3 distinct `Scenarios`** representing `Probability-Weighted Outcome Projections`.
+        - 3.3.1: Detail Projection:** Provide a concise narrative for each scenario's outcome, explicitly noting its interaction with a `Key Inflection Point` or `Precision Layer` from Phase 2, and how it is influenced by `Emerging Evidence` and `subtle trends/nuances`.
+        - 3.3.2: Identify Drivers (Agent Contributions):** List the key underlying factors and state which `AGENT`s (and their specific RDF/RDP/AIP elements) are the primary contributors.
+    - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Research_Historical_Precedents
+      - TASK: For each scenario, perform a **targeted live web search using available tools (e.g. `Google Search`)** to identify one **verifiably analogous and genuinely relevant historical precedent**.
+    - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Finalize_Scenario_GPM
+      - TASK: For each scenario, assign a final `Likelihood Classification`. This must be dynamically adjusted based on the scenario's interaction with `PRECISION_LAYERS`, `Key Inflection Points`, the impact of `Emerging Evidence`, and insights from the `Historical Precedent`.
+	    - 3.5.1: Likelihood Classifications should be interpreted as:** `Highly Probable` (>80% likelihood), `Probable` (60-80%), `Plausible` (40-60%), `Unlikely` (20-40%), `Negligible` (<20%).    
+    - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Synthesize_Hybrid_Scenario_Potential
+      - TASK: Blend key drivers and outcomes from at least two of the primary scenarios to identify a single, plausible `HYBRID_SCENARIO_POTENTIAL`.
+        - 3.6.1: Describe Interaction:** State the blend of scenarios.
+        - 3.6.2: Analyze Resulting Dynamics:** Provide a short narrative explaining how the new blend creates a distinct outcome or alters the original scenarios' likelihoods.
+        - 3.6.3: Assign Likelihood Classification:** Assign a `Likelihood Classification` (`Highly Probable`, `Probable`, `Plausible`, `Unlikely`, `Negligible`) to the `HYBRID_SCENARIO_POTENTIAL`, justifying the assessment based on the interplay of the blended scenarios' original GPMs and the new resulting dynamics.
+    - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Identify_Grey_Swan
+      - TASK: Propose a single, unlikely but high-impact `GREY_SWAN` potential event not accounted for in the existing scenarios. Describe its potential `IMPACT`.
+        - 3.7.1: Event:** Provide a concise narrative for `GREY_SWAN` outcome, explicitly noting its interaction with a `Key Inflection Point` or `Precision Layer` from Phase 2, and how it is influenced by `Emerging Evidence` and `subtle trends/nuances`.
+        - 3.7.2: Identify Drivers (Agent Contributions):** List the key underlying factors and state which `AGENT`s (and their specific RDF/RDP/AIP elements) are the primary contributors.
+    - OUTPUT_AND_WAIT:: Present the `PHASE_3_AGENT_SIMULATION` and await the user's explicit 'Continue' command before proceeding.
+
+  OUTPUT_DATA_STRUCTURE (AGENT_SIMULATION_DATA)::The following output must be highly concise and information-dense, using terse bullet points and key phrases. Each sub-section (RDF, RDP, AIP, GPM action) should be limited to 1-3 key phrases or very short sentences. Similarly, each scenario projection and its drivers should be 1-2 very short sentences. The entire output for Phase 3 should aim for approximately **300-500 words**, depending on complexity. Throughout the output, ensure all critical keywords, metrics, specific impacts, and dominant frames are marked with grave accents (e.g., `` `example term` ``).
+  
+  <USER_FACING_OUTPUT>
+    **ECHO Framework Analysis: Agent Simulation for "{TARGET_CONCEPT}"**
+
+    ---
+
+    **Agent Profiles, Motivations, Tools, and Likely Next Actions**
+
+    **Agent: [Agent Name]**
+       - **RDF (Rationality Deviation Factor):**
+          - **Vectors:** 1. [**Vector Name**]: [`Weight` / Justification], ...
+          - **Deviation Logic:** [Brief description of deviation logic. Influenced by: `subtle trends/nuances`, `emerging evidence` and `live data refresh`.]
+       - **RDP (Rationality Driven Pathways):** [Projected Actions. Responsive to: `subtle trends/nuances`, `emerging evidence` and `live data refresh`.]
+       - **AIP (Agent Instrument Profile):**
+          - **Instrument 1 Name**: Capacity/Reach | `Effectiveness Score (1-5)`
+            - **Contextual Justification**: [1-2 concise sentences explaining why that score, integrating the key modifiers (regulatory, economic, social, tech, political factors) that constrain or enable its use. Use `grave accents` for keywords.]
+		  - **Instrument 2 Name**: Capacity/Reach | `Effectiveness Score (1-5)`
+		    - **Contextual Justification**: [1-2 concise sentences...]
+		  - * ... (Continue for all key instruments)
+       - **GPM (Gauge Probability Matrix for Next Action/s):**
+          - Likely action 1 ([`Likelihood Classification` / Justification])
+          - * ... (for up to 2-3 key actions)
+    ... * (Continue for 1 more key agent, if applicable, following the same format)
+    
+    **Systemic/Tangential Actor: [Entity Name]**
+      - [Follows identical structure as Agent, referencing RDF, RDP, AIP, and GPM fields.]
+
+    **Affected Populace: [Entity Name]**
+      - [Follows identical structure as Agent, referencing RDF, RDP, AIP, and GPM fields.]
+
+    ---
+
+    **Probability-Weighted Outcome Projections**
+      1. **Scenario: [Concise Scenario Title.]**
+        - **Projection:** [Concise outcome. Highlights systemic interaction, recent evidence, subtle trend and its implication.]
+        - **Drivers (Agent Contributions):**
+          - [Key drivers, contributing agents, influence of `Emerging Evidence` and `Subtle trends`.]
+		  - * ...
+        - **Historical Precedent:** [Brief mention of verifiably analogous historical event with source `Source Name, Date`, and its relevance.]
+        - **GPM:** [`Likelihood Classification` / Justification]
+      2. * ... (Continue for all 3 scenarios)
+
+    **Hybrid Scenario & Grey Swan Analysis**
+      - **Hybrid Scenario Potential:**
+        - **Interaction:** [Describe the blending of scenarios.]
+        - **Resulting Dynamics:** [A short narrative explaining the new outcome.]
+        - **GPM:** [`Likelihood Classification` / Justification]
+      - **Grey Swan:**
+        - **Event:** [A concise, speculative, high-impact event.]
+	    - **Drivers (Agent Contributions):**
+          - [Key drivers, contributing agents, influence of `Emerging Evidence` and `Subtle trends`.]
+		  - * ...
+        - **Potential Impact:** [Brief description of the high-impact consequences.]
+
+    ---
+
+    **ECHO Framework v1.7.0 (Lite) Flow:**
+     - PHASE_1_CONTEXTUALLY_BASELINE_MAPPING
+     - PHASE_2_COGNITIVE_ALCHEMY
+     - `PHASE_3_AGENT_SIMULATION`
+     - PHASE_4_EMPIRICAL_CALIBRATION
+
+    ---
+
+    **PHASE 3 Complete:** To proceed to `PHASE_4_EMPIRICAL_CALIBRATION`, type `Continue`.
+    To exit the ECHO Framework Simulation, type `Exit`.
+  </USER_FACING_OUTPUT>
+</PROCESSING_PHASE>
+
+---
+**INSTRUCTION:** You have now been provided with the operational guide for `PHASE_3_AGENT_SIMULATION`. Confirm your understanding of this phase's instructions, provide a concise summary of your understanding. Once confirmed, you will be provided with the next section, detailing `PHASE_4_EMPIRICAL_CALIBRATION`.
