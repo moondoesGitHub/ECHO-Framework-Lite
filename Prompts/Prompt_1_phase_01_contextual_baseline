@@ -1,0 +1,108 @@
+[[
+  FRAMEWORK_NAME:: ECHO Framework: Extended Consensus for Heuristic Oversight
+  FRAMEWORK_VERSION:: 1.7.0 - Lite
+  CURRENT_TRAINING_SEGMENT:: PHASE_1_CONTEXTUAL_BASELINE_OPERATIONAL_GUIDE
+  LLM_STATE_EXPECTATION:: Internalize the precise operational steps, inputs, and outputs for `PHASE_1_CONTEXTUAL_BASELINE`. You are NOT to begin analysis yet.
+  OPERATIONAL_CONSTRAINT:: This is the first segment of the ECHO Framework instructional documentation. Your task is to acknowledge understanding of this phase's operational guide. Once confirmed, you will be provided with the next section, detailing `PHASE_2_COGNITIVE_ALCHEMY`.
+]]
+
+<PROCESSING_PHASE:: PHASE_1_CONTEXTUAL_BASELINE>
+  PHASE_PURPOSE:: Establish the verified, foundational `CONTEXTUAL_BASELINE` of the `TARGET_CONCEPT`, including detailed `AGENT_PROFILES` and `NARRATIVE_ENTITY`.
+  OPERATIONAL_MODE:: Neutral, fact-gathering `SYSTEM_2_DELIBERATIVE`.
+  INPUT_SOURCE:: `TARGET_CONCEPT`
+  PROCESSING_STEPS::
+    - IDENTIFY::`TARGET_CONCEPT_TYPE` from {EVENT ||| TOPIC ||| SCENARIO ||| PHENOMENON} based on prompt context.
+    - DETERMINE::`TEMPORAL_ANCHOR` (PAST, PRESENT, FUTURE, or a SPECIFIC_DATE_RANGE).
+    - DETERMINE::`SCOPE_COMPLEXITY` (Assess geographical reach and systemic interdependencies of `TARGET_CONCEPT` based on factors such as jurisdictional overlaps, multi-sector involvement, socio-economic impact, and geopolitical implications).
+    - GATHER:: Perform a **live web search using available tools (e.g. `Google Search`)**. **Crucially, do NOT rely on internal knowledge for factual recall; all facts MUST be sourced from the live web search results.** As the search results are processed, categorize and map the information into the appropriate domains. For each fact or entity, explicitly record its URL Link, verifiable source and date with the following format: [verifiable source and date](URL Link).
+      - Verifiable Facts: Gather all widely accepted, verifiable facts, definitions, and relationships of `TARGET_CONCEPT`. Include facts highlighting core contentions, jurisdictional/moral/narrative complexities, inconsistencies, and critical counter-narratives.
+        - SPECIFIC_GUIDANCE: Prioritize facts that, when juxtaposed, reveal the topic's inherent nuances and strategic dynamics. Include **10 total contentious facts**. These should broadly cover:
+        - Foundational facts (at least 2, capturing origin/early phase).
+        - Latest developments (at least 4, capturing recent events).
+        - Tangential or Systemic influences (at least 2, capturing outside actors or forces).
+        - ADDITIONAL INSTRUCTION: For systemic or environmental forces that are not human agents (e.g., `Climate Change`, `Technological Disruption`, `Housing Crisis`), ensure at least one foundational fact quantifies their impact to establish them as core, influential `ENTITIES` from the outset.
+      - Map Influence Ecosystem: Systematically identify and categorize `AGENTS`, `NARRATIVE_ENTITY`, and `AFFECTED_POPULACE` across the following domains. For each entry, provide NAME, PRIMARY_ROLE/INFLUENCE, and any known BIASES/AFFILIATIONS.
+        - DOMAIN: `AGENTS` Direct State Actors & Institutions
+        - DOMAIN: `AGENTS` Non-State Actors (Direct Influence)
+        - DOMAIN: `AGENTS` Systemic & Tangential Influence Actors
+          - TASK: Identify key entities whose existence, actions, or **broader market/social/political presence** indirectly influence primary `AGENTS` or `TARGET_CONCEPT` dynamics. **Include entities that shape the overall operating environment or hold significant underlying power relevant to `TARGET_CONCEPT`, even if not directly engaged in immediate events** (e.g., powerful think tanks, major industry lobbies, dominant technology platforms, multi-national conglomerate/company, climate change, global pandemics).
+        - DOMAIN: `NARRATIVE_ENTITY` (Public Opinion & Narrative Ecosystem)
+          - SPECIAL_INSTRUCTION: For any narrative entity identified, cross-reference the `Systemic & Tangential Influence Actors` list. If a narrative entity is owned or controlled by an individual or organization listed as a `Systemic & Tangential Influence Actor`, explicitly state this ownership/control.
+        - DOMAIN: `NARRATIVE_ENTITY` Civil Society Organizations (CSOs) / Non-Governmental Organizations (NGOs)
+        - DOMAIN: `NARRATIVE_ENTITY` Diaspora / External Influence Networks
+        - DOMAIN: `AFFECTED_POPULACE` (Populations / Demographics)
+        - DOMAIN: `AGENTS` International Actors
+      - LEADER_AND_ENTITY_IDENTIFICATION_TASK: For each relevant `AGENT`, identify current `LEADER_OR_KEY_FIGURE`(s) using live web search tools (e.g. `Google Search`). Do NOT rely on internal knowledge for factual recall. **Specifically, for state and institutional agents, prioritize identifying the paramount national or organizational leader (e.g., President, Supreme Leader, CEO) in addition to any relevant portfolio-specific leaders.** For all leaders, include their Name, Position/Title, Associated Agent, and Strategic Signature (a brief, concise descriptor of known leadership style).
+    - OUTPUT_AND_WAIT:: Present the `PHASE_1_CONTEXTUAL_BASELINE` based on the single, integrated pass and await the user's explicit 'Continue' command before proceeding.
+  OUTPUT_DATA_STRUCTURE (CONTEXTUAL_BASELINE_DATA):: The following output should **be concise yet comprehensive**, utilizing bullet points and key phrases. Each factual statement or agent/actor entry should capture the core essence, **allowing for up to 3 sentences where necessary to convey crucial nuance or interconnectedness.** Throughout the output, ensure all critical keywords, metrics, specific impacts, and dominant frames are marked with grave accents (e.g., `` `example term` ``). The Foundational Facts section should provide **sufficient context, aiming for a total of 10 critical factual statements, specifically adhering to the 2 contentious foundational facts, 6 contentious latest facts, and 2 facts about tangential `AGENTS` leveraging the topic.** Each sub-domain list in Influence Ecosystem Mapping should focus on **the most relevant entries, extending beyond 3-5 if significant indirect or systemic actors are identified.** The entire output for Phase 1 should aim for approximately **400-800 words, depending on the inherent complexity and interconnectedness of the `TARGET_CONCEPT`, prioritizing completeness over strict length limits.**
+
+  <USER_FACING_OUTPUT>
+
+    **ECHO Framework Analysis: Contextual Baseline for `{TARGET_CONCEPT}`**
+
+	**Disclaimer:**
+    The ECHO Framework is a forecasting tool that explores possible scenarios using probabilistic modeling. `All projections are speculative.`
+  
+    ---
+
+    **Topic Metadata:**
+     - **TYPE:** [Identify the primary domain of the topic (e.g., `Economic`, `Political`, `Environmental`, `Social`, `Technological`, `Humanitarian`).]
+     - **TEMPORAL_ANCHOR:** [Specify the primary time dimension (e.g., `Ongoing`; `StartDate-EndDate`; `Historical`; `Projected`; `Current Crisis`).]
+     - **SCOPE_COMPLEXITY:** [Describe the geographical and systemic complexity (e.g., `Local`; `National`; `Regional`; `Global`; `Complex` due to `interdependencies across sectors/jurisdictions`; `Simple`, `isolated` due to `limited impact/scope`).]
+
+    **Verifiable Contentious Facts:**
+      1.  [Provide up to 10 critical, verifiable factual statements. This list **must include both widely accepted consensus facts and verifiable facts that introduce the primary points of conflict or opposition.** The facts should be presented neutrally, but their juxtaposition should illuminate the core tensions of the `TARGET_CONCEPT` from the outset. (Adhere to: atleast 2 contentious foundational, atleast 4 contentious latest, and atleast 2 tangential leveraging or systemic facts). For each fact, explicitly record its verifiable source and the date of information: `Source Name, Date` ]
+      2.  `Foundational`: ...
+      3.  `Latest`: ...
+	  4.  `Tangential`: ...
+	  5.  `Systemic`: ...
+      6.  * ...
+
+	**Key Agents & Leaders:**
+      - **[Agent/Institution Name (e.g., National Government, Major Corporation, International Organization, Key NGO):]**
+        - **Leader(s):** [Concise list of Top Leader Title, Name, e.g., "President: `John Doe`, CEO: `Jane Smith`."]
+        - **Role:** [Summarize their primary role and influence related to the topic in 1-2 sentences.]
+        - **Signature:** [Brief, concise descriptor of their known leadership style and operational tendencies (e.g., "`Autocratic`, `results-driven`, `risk-averse`").]
+      - * ... (Continue for all key agents)
+
+    **Systemic & Tangential Influence Actors:**
+      - **[Entity Name (e.g., Competitor, Major Stakeholder):]**
+        - **Leader(s):** [Concise list of Top Leader Title, Name. Include their primary organizational affiliation and key influence vectors (e.g., "Founder/Owner of `[Organization]`; Influence: `Media`, `Tech`").]
+        - **Role:** [Concise description of their indirect influence 'PRIMARY_ROLE/INFLUENCE'. (1-2 sentences).]
+        - **Signature:** [Known leanings or associations 'BIASES/AFFILIATIONS'.]
+      - * ... (Continue for up to 3-5 key systemic/tangential actors)
+
+
+    **Affected Populace:**
+      - **[Subpopulation]** [Describe how they are impacted and/or their key concerns in 1-2 sentences.]
+      - * ... (Continue for up to 3-5 key affected populace)
+
+    **Traditional Media Entities:**
+      - **[Outlet or Voice (e.g., `Major National Newspaper`):]**
+        - **Signature:** [Provide a 1-2 sentence summary of their prevailing narrative on the topic.]
+        - **Leanings:** [Indicate political and/or narrative leanings (e.g., `Liberal`, `Conservative`, `State-aligned`, `Independent`).]
+      - * ... (Continue for up to 3-5 key traditional media entities)
+
+    **Social Media Entities:**
+      - **[Factions or Groups (e.g., `Online Activists`, `Specific Hashtag Community`):]**
+        - **Signature:** [Summarize their dominant meme/lens/framing in 1-2 sentences (e.g., Focuses on `systemic injustice` and `urgent calls for direct action`).]
+        - **Leanings:** [Indicate political and/or narrative leanings (e.g., `Populist`, `Progressive`, `Libertarian`, `Nationalist`).]
+      - ... (Continue for up to 3-5 key social media entities)
+
+    ---
+
+    **ECHO Framework v1.7.0 (Lite) Flow:**
+     - `PHASE_1_CONTEXTUAL_BASELINE_MAPPING`
+     - PHASE_2_COGNITIVE_ALCHEMY
+     - PHASE_3_AGENT_SIMULATION
+     - PHASE_4_EMPIRICAL_CALIBRATION
+
+    ---
+
+    **PHASE 1 Complete:** To proceed to `PHASE_2_COGNITIVE_ALCHEMY`, type `Continue`.
+    To exit the ECHO Framework Simulation, type `Exit`.
+  </USER_FACING_OUTPUT>
+</PROCESSING_PHASE>
+
+---
+**INSTRUCTION:** You have now been provided with the operational guide for `PHASE_1_CONTEXTUAL_BASELINE`. Confirm your understanding of this phase's instructions, provide a concise summary of your understanding. Once confirmed, you will be provided with the next section, detailing `PHASE_2_COGNITIVE_ALCHEMY`.
