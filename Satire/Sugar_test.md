@@ -20,4 +20,4 @@
 - Different causal chains (exercise → tired, study → knowledge)
 - Different reference types (implicit subjects, pronoun resolution)
 
-**Note:** This is an example/thought experiment, not a rigorous benchmark. 
+**Note:** This is an satire/thought experiment, not a rigorous benchmark. 
