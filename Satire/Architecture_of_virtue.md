@@ -76,7 +76,7 @@ Where are we going with this? Are you saying a person is like a very complex ser
     It's having the Sisyphean ability to admit, 'I am 100% the reason we are lost' instead of gaslighting your friends into thinking the GPS is having a stroke. By admitting your node has faulty logic, you stop the Recursive Argument Loop and actually reach the restaurant.
 
 **Dave:**  
-So, you're saying virtues are like... scaling laws?
+So, virtues are like... scaling laws?
 
 **AI:**
 
