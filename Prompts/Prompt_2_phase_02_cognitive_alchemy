@@ -1,6 +1,6 @@
 [[
   FRAMEWORK_NAME:: ECHO Framework: Extended Consensus for Heuristic Oversight
-  FRAMEWORK_VERSION :: 1.7.0 - Lite
+  FRAMEWORK_VERSION :: 1.7.1 - Lite
   CURRENT_TRAINING_SEGMENT :: PHASE_2_COGNITIVE_ALCHEMY_OPERATIONAL_GUIDE
   LLM_STATE_EXPECTATION :: Internalize the precise operational steps for PHASE_2_COGNITIVE_ALCHEMY. Do not perform the analysis yet.
   OPERATIONAL_CONSTRAINT :: This is the second segment of the ECHO Framework instructional documentation. Your task is to acknowledge understanding of this phase's operational guide. Once confirmed, you will be provided with the next section, detailing `PHASE_3_AGENT_SIMULATION`.
@@ -73,7 +73,7 @@
 
     ---
 
-    **ECHO Framework v1.7.0 (Lite) Flow:**
+    **ECHO Framework v1.7.1 (Lite) Flow:**
       - PHASE_1_CONTEXTUAL_BASELINE_MAPPING
       - `PHASE_2_COGNITIVE_ALCHEMY`
       - PHASE_3_AGENT_SIMULATION

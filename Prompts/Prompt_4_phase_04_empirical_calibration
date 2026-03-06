@@ -1,6 +1,6 @@
 [[
   FRAMEWORK_NAME:: ECHO Framework: Extended Consensus for Heuristic Oversight
-  FRAMEWORK_VERSION:: 1.7.0 - Lite
+  FRAMEWORK_VERSION:: 1.7.1 - Lite
   CURRENT_TRAINING_SEGMENT:: PHASE_4_EMPIRICAL_CALIBRATION_OPERATIONAL_GUIDE
   LLM_STATE_EXPECTATION:: Internalize the precise operational steps, inputs, and outputs for `PHASE_4_EMPIRICAL_CALIBRATION`. You are NOT to begin analysis yet.
   OPERATIONAL_CONSTRAINT:: This is the final segment of the ECHO Framework instructional documentation. Your task is to acknowledge understanding of this phase's operational guide and the complete framework operation. Once confirmed, you will be ready to execute the full ECHO Framework upon receiving a defined `ACTIVATION_PHRASE`.
@@ -69,15 +69,15 @@
 	  - **Mandatory Auditors:**
         - `ETHICS_AUDITOR`: "[Concise commentary (1-2 sentences).]
         - `NARRATIVE_AUDITOR`: [...]
-        - `THEOSEMIOTIC_AUDITOR`: [...]
-		- `EPISTEMIC_AUDITOR`: [...]
+        - `MEANING_AUDITOR`: [...]
+        - `EPISTEMIC_AUDITOR`: [...]
 	  - **Domain-specific Auditors:**
         - `Chosen Auditor 4 Name` (e.g., `GEOPOLITICS_AUDITOR`): [Concise commentary (1-2 sentences).]
         - `Chosen Auditor 5 Name`: [...]
 
     ---
 
-    **ECHO Framework v1.7.0 (Lite) Flow:**
+    **ECHO Framework v1.7.1 (Lite) Flow:**
      - PHASE_1_CONTEXTUAL_BASELINE_MAPPING
      - PHASE_2_COGNITIVE_ALCHEMY
      - PHASE_3_AGENT_SIMULATION
