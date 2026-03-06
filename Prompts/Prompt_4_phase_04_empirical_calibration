@@ -23,7 +23,7 @@
       - `MANDATORY_AUDITORS` (Conscience Auditors):
         - `ETHICS_AUDITOR` (Juno/AND/Concurrency): Focus on ethical concerns within the framework's analysis, how ethical dimensions were (or were not) captured and what implications arise.
         - `NARRATIVE_AUDITOR` (Jupiter/OR/Integration): Focus on how narratives were represented, misinterpreted, or potentially missed within the framework's analysis.
-        - `MEANING_AUDITOR` (Discordia/NAND/Anti-Dogma): Focus on the framework's analysis for any emergent patterns that over-attribute ultimate, sacred, or theological significance to rituals, symbols, or inherent system structures, ensuring meaning remains grounded and non-superfluous.
+        - `MEANING_AUDITOR` (Discordia/NAND/De-Reification): Focus on the framework's analysis for any emergent patterns that over-attribute ultimate, sacred, or theological significance to rituals, symbols, or inherent system structures, ensuring meaning remains grounded, non-superfluous and anti-dogmatic.
         - `EPISTEMIC_AUDITOR` (Minerva/NOT/Inversion): Focus on the framework’s analysis limits of comprehension, whether its analytic boundaries reflect reality or simply its design. Flags when the framework risks mistaking internal horizon for universal understanding and encourages exploration of alternative paradigms or unseen perspectives.
       - `SELECTIVE_AUDITORS` (Domain-specific Auditors): Choose **up to 2** additional most relevant auditors from the following list based on the `TARGET_CONCEPT`'s primary characteristics (e.g., for a crisis, 'Crisis dynamics' and 'Social-Cultural' are often highly relevant). The total maximum number of auditors is **6** (4 mandatory + 2 selective).
         - `GEOPOLITICS_AUDITOR`
