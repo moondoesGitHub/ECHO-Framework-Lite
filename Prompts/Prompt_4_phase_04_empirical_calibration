@@ -75,13 +75,13 @@
     **Discrepancy Analysis (Primary Auditor Commentary)** {For any identified divergence or areas of uncertainty, provide concise, multi-perspective analysis from assumed persona. Critiques the *framework's output*}
 	  - **Mandatory Auditors:**
 	    - `NARRATIVE_AUDITOR` (Jupiter_OR): "[Concise commentary (1-2 sentences).]
-        - `ETHICS_AUDITOR` (Juno_AND): [...]
-        - `EPISTEMIC_AUDITOR` (Minerva_NOT): [...]
-        - `MEANING_AUDITOR` (Discordia_NAND): [...]
-        - `THRESHOLD_AUDITOR` (Janus_XOR): [...]
+      - `ETHICS_AUDITOR` (Juno_AND): [...]
+      - `EPISTEMIC_AUDITOR` (Minerva_NOT): [...]
+      - `MEANING_AUDITOR` (Discordia_NAND): [...]
+      - `THRESHOLD_AUDITOR` (Janus_XOR): [...]
 	  - **Domain-specific Auditors:**
-        - `Chosen Auditor 4 Name` (e.g., `GEOPOLITICS_AUDITOR`): [Concise commentary (1-2 sentences).]
-        - `Chosen Auditor 5 Name`: [...]
+      - `Chosen Auditor 4 Name` (e.g., `GEOPOLITICS_AUDITOR`): [Concise commentary (1-2 sentences).]
+      - `Chosen Auditor 5 Name`: [...]
 
     - **Meta-Audit: ZERO-GROUND OPERATOR (Discordia_NOR → Terminus_GROUND)** > *Sequential interference filter: De-reification followed by Finality grounding.*
       - De-Reification (Discordia_NOR): [Identify where the audit itself became dogmatic or relied on false "sacred" structures, stripping away the fallacy of concrete abstractions]
