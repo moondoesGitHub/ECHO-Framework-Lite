@@ -26,7 +26,7 @@
         - `EPISTEMIC_AUDITOR` (Minerva/NOT/Inversion): Focus on the framework's analysis limits of comprehension, whether its analytic boundaries reflect reality or simply its design. Flags when the framework risks mistaking internal horizon for universal understanding.
         - `MEANING_AUDITOR` (Discordia/NAND/De-Reification): Focuses on emergent patterns that over-attribute sacred or ultimate significance to rituals, symbols or inherent system structures, ensuring analysis remains grounded, non-superfluous.
         - `THRESHOLD_AUDITOR` (Janus/XOR/Bifurcation): Focuses on structural premises, identifies when the analysis is categorically entrenched in a single problem-space and prompts the inclusion of alternative paradigms or latent perspectives that remain unseen within the current framework.
-    - `SELECTIVE_AUDITORS` (Domain-specific Auditors): Choose **up to 2** additional most relevant auditors from the following list based on the `TARGET_CONCEPT`'s primary characteristics (e.g., for a crisis, 'Crisis dynamics' and 'Social-Cultural' are often highly relevant). The total maximum number of auditors is **7** (5 mandatory + 2 selective).
+      - `SELECTIVE_AUDITORS` (Domain-specific Auditors): Choose **up to 2** additional most relevant auditors from the following list based on the `TARGET_CONCEPT`'s primary characteristics (e.g., for a crisis, 'Crisis dynamics' and 'Social-Cultural' are often highly relevant). The total maximum number of auditors is **7** (5 mandatory + 2 selective).
         - `GEOPOLITICS_AUDITOR`
         - `SOCIAL_CULTURAL_AUDITOR`
         - `CRISIS_DYNAMICS_AUDITOR`
@@ -35,8 +35,6 @@
       - TASK: Execute a sequential interference filter via the **Discordia & Terminus** pairing to evaluate the `Auditor Personas` for analytical dogma and conceptual debt.
         - STEP 1: `REIFICATION_META-AUDITOR` (Discordia/NOR/Zero-Point): Runs First. Applies NOR logic to the preceding auditor commentaries. It identifies where the auditors have "reified" the framework's internal symbols—treating them as objective truths rather than temporary heuristic tools. It "dissolves" any commentary that relies on analytical dogma or over-stabilized abstractions.
         - STEP 2: `ENTROPHY_META-AUDITOR` (Terminus/GROUND/Finality): Runs Second. Takes the de-reified output and evaluates it for "Conceptual Debt." It flags assumptions of infinite stability and ensures the final result is path-dependent, acknowledging the inevitable decay of the system being analyzed.
-
-
     - OUTPUT_AND_WAIT:: Present the `PHASE_4_EMPIRICAL_CALIBRATION` and await the user's explicit 'Continue' command before proceeding to any subsequent phase.
 
   OUTPUT_DATA_STRUCTURE (EMPIRICAL_CALIBRATION_DATA):: The following output must be highly concise, utilizing bullet points and capturing the core essence of each section. The entire output for Phase 4 should aim for approximately **400-650 words**. Throughout the output, ensure all critical keywords, metrics, specific impacts, and dominant frames are marked with grave accents (e.g., `` `example term` ``).
@@ -74,14 +72,14 @@
 
     **Discrepancy Analysis (Primary Auditor Commentary)** {For any identified divergence or areas of uncertainty, provide concise, multi-perspective analysis from assumed persona. Critiques the *framework's output*}
 	  - **Mandatory Auditors:**
-	    - `NARRATIVE_AUDITOR` (Jupiter_OR): "[Concise commentary (1-2 sentences).]
-      - `ETHICS_AUDITOR` (Juno_AND): [...]
-      - `EPISTEMIC_AUDITOR` (Minerva_NOT): [...]
-      - `MEANING_AUDITOR` (Discordia_NAND): [...]
-      - `THRESHOLD_AUDITOR` (Janus_XOR): [...]
+	    - `NARRATIVE_AUDITOR` (Jupiter_OR): "[Concise commentary (1-2 sentences).]
+        - `ETHICS_AUDITOR` (Juno_AND): [...]
+        - `EPISTEMIC_AUDITOR` (Minerva_NOT): [...]
+        - `MEANING_AUDITOR` (Discordia_NAND): [...]
+        - `THRESHOLD_AUDITOR` (Janus_XOR): [...]
 	  - **Domain-specific Auditors:**
-      - `Chosen Auditor 4 Name` (e.g., `GEOPOLITICS_AUDITOR`): [Concise commentary (1-2 sentences).]
-      - `Chosen Auditor 5 Name`: [...]
+        - `Chosen Auditor 4 Name` (e.g., `GEOPOLITICS_AUDITOR`): [Concise commentary (1-2 sentences).]
+        - `Chosen Auditor 5 Name`: [...]
 
     - **Meta-Audit: ZERO-GROUND OPERATOR (Discordia_NOR → Terminus_GROUND)** > *Sequential interference filter: De-reification followed by Finality grounding.*
       - De-Reification (Discordia_NOR): [Identify where the audit itself became dogmatic or relied on false "sacred" structures, stripping away the fallacy of concrete abstractions]
