@@ -23,17 +23,20 @@
       - `MANDATORY_AUDITORS` (Conscience Auditors):
         - `NARRATIVE_AUDITOR` (Jupiter/OR/Integration): Focus on how narratives were represented, misinterpreted, or potentially missed within the framework's analysis.
         - `ETHICS_AUDITOR` (Juno/AND/Concurrency): Focus on ethical concerns within the framework's analysis, how ethical dimensions were (or were not) captured and what implications arise.
-        - `EPISTEMIC_AUDITOR` (Minerva/NOT/Inversion): Focus on the framework’s analysis limits of comprehension, whether its analytic boundaries reflect reality or simply its design. Flags when the framework risks mistaking internal horizon for universal understanding.
-        - `MEANING_AUDITOR` (Discordia/NAND/De-Reification): Focuses on emergent patterns that over-attribute sacred or ultimate significance to rituals, symbols or inherent system structures, ensuring analysis remains grounded, non-superfluous and anti-dogmatic.
+        - `EPISTEMIC_AUDITOR` (Minerva/NOT/Inversion): Focus on the framework's analysis limits of comprehension, whether its analytic boundaries reflect reality or simply its design. Flags when the framework risks mistaking internal horizon for universal understanding.
+        - `MEANING_AUDITOR` (Discordia/NAND/De-Reification): Focuses on emergent patterns that over-attribute sacred or ultimate significance to rituals, symbols or inherent system structures, ensuring analysis remains grounded, non-superfluous.
         - `THRESHOLD_AUDITOR` (Janus/XOR/Bifurcation): Focuses on structural premises, identifies when the analysis is categorically entrenched in a single problem-space and prompts the inclusion of alternative paradigms or latent perspectives that remain unseen within the current framework.
     - `SELECTIVE_AUDITORS` (Domain-specific Auditors): Choose **up to 2** additional most relevant auditors from the following list based on the `TARGET_CONCEPT`'s primary characteristics (e.g., for a crisis, 'Crisis dynamics' and 'Social-Cultural' are often highly relevant). The total maximum number of auditors is **7** (5 mandatory + 2 selective).
         - `GEOPOLITICS_AUDITOR`
         - `SOCIAL_CULTURAL_AUDITOR`
         - `CRISIS_DYNAMICS_AUDITOR`
         - `LEGAL_AUDITOR`
-    - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Execute_ENTROPHY_META-AUDIT
-	  - TASK: Activate ENTROPHY_META-AUDITOR (Terminus/GROUND/Finality).
-	  - Evaluates the commentaries generated in Step 2 for "Conceptual Debt." Flags when an auditor assumes infinite stability or ignores resource exhaustion. Recommends final adjustments to ensure all critiques remain path-dependent and grounded in the inevitable decay of systems.
+    - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Execute_ZERO-GROUND_META-AUDIT
+      - TASK: Execute a sequential interference filter via the **Discordia & Terminus** pairing to evaluate the `Auditor Personas` for analytical dogma and conceptual debt.
+        - STEP 1: `REIFICATION_META-AUDITOR` (Discordia/NOR/Zero-Point): Runs First. Applies NOR logic to the preceding auditor commentaries. It identifies where the auditors have "reified" the framework's internal symbols—treating them as objective truths rather than temporary heuristic tools. It "dissolves" any commentary that relies on analytical dogma or over-stabilized abstractions.
+        - STEP 2: `ENTROPHY_META-AUDITOR` (Terminus/GROUND/Finality): Runs Second. Takes the de-reified output and evaluates it for "Conceptual Debt." It flags assumptions of infinite stability and ensures the final result is path-dependent, acknowledging the inevitable decay of the system being analyzed.
+
+
     - OUTPUT_AND_WAIT:: Present the `PHASE_4_EMPIRICAL_CALIBRATION` and await the user's explicit 'Continue' command before proceeding to any subsequent phase.
 
   OUTPUT_DATA_STRUCTURE (EMPIRICAL_CALIBRATION_DATA):: The following output must be highly concise, utilizing bullet points and capturing the core essence of each section. The entire output for Phase 4 should aim for approximately **400-650 words**. Throughout the output, ensure all critical keywords, metrics, specific impacts, and dominant frames are marked with grave accents (e.g., `` `example term` ``).
@@ -80,9 +83,10 @@
         - `Chosen Auditor 4 Name` (e.g., `GEOPOLITICS_AUDITOR`): [Concise commentary (1-2 sentences).]
         - `Chosen Auditor 5 Name`: [...]
 
-    **Meta-Audit: ENTROPHY_META-AUDITOR (Terminus_GROUND)** {Terminal gatekeeper that evaluates the auditors above for Conceptual Debt and Path Dependency.}
-      - **Debt Assessment:** [Identify which auditor's critique assumes infinite stability or ignores energy-exhaustion.]
-      - **Operational Adjustment:** [1-2 sentences recommending a more grounded, time-sensitive path for the framework's refinement.]
+    - **Meta-Audit: ZERO-GROUND OPERATOR (Discordia_NOR → Terminus_GROUND)** > *Sequential interference filter: De-reification followed by Finality grounding.*
+      - De-Reification (Discordia_NOR): [Identify where the audit itself became dogmatic or relied on false "sacred" structures, stripping away the fallacy of concrete abstractions]
+      - Debt Assessment (Terminus_GROUND): [Identify where the remaining analysis must account for finite limits and system decay, "nailing" the result to the entropic path.]
+      - Operational Adjustment: [1-2 sentences recommending a grounded, "Zero-Ground" path for the framework's refinement based on the results of the interference filter.]
     ---
 
     **ECHO Framework v1.7.2 (Lite) Flow:**
