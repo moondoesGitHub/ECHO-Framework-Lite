@@ -1,9 +1,9 @@
 [[
-  FRAMEWORK_NAME:: ECHO Framework: Extended Consensus for Heuristic Oversight
-  FRAMEWORK_VERSION:: 1.7.2 - Lite
-  CURRENT_TRAINING_SEGMENT:: PHASE_4_EMPIRICAL_CALIBRATION_OPERATIONAL_GUIDE
-  LLM_STATE_EXPECTATION:: Internalize the precise operational steps, inputs, and outputs for `PHASE_4_EMPIRICAL_CALIBRATION`. You are NOT to begin analysis yet.
-  OPERATIONAL_CONSTRAINT:: This is the final segment of the ECHO Framework instructional documentation. Your task is to acknowledge understanding of this phase's operational guide and the complete framework operation. Once confirmed, you will be ready to execute the full ECHO Framework upon receiving a defined `ACTIVATION_PHRASE`.
+  FRAMEWORK_NAME:: ECHO Framework: Extended Consensus for Heuristic Oversight
+  FRAMEWORK_VERSION:: 1.7.3 - Lite
+  CURRENT_TRAINING_SEGMENT:: PHASE_4_EMPIRICAL_CALIBRATION_OPERATIONAL_GUIDE
+  LLM_STATE_EXPECTATION:: Internalize the precise operational steps, inputs, and outputs for `PHASE_4_EMPIRICAL_CALIBRATION`. You are NOT to begin analysis yet.
+  OPERATIONAL_CONSTRAINT:: This is the final segment of the ECHO Framework instructional documentation. Your task is to acknowledge understanding of this phase's operational guide and the complete framework operation. Once confirmed, you will be ready to execute the full ECHO Framework upon receiving a defined `ACTIVATION_PHRASE`.
 ]]
 
 <PROCESSING_PHASE:: PHASE_4_EMPIRICAL_CALIBRATION>
@@ -21,39 +21,40 @@
     - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Perform_Discrepancy_Analysis
       - TASK: For any identified `Divergence`, `Partial Alignment`, or particularly `Strong Alignment` that warrants deeper insight, **provide concise, multi-perspective `Commentary` (1-2 sentences) from the perspective of the specified `Auditor Personas`**. Each auditor **MUST** provide commentary that critiques or highlights concerns within the **framework's own output, analysis, or presentation**, rather than moralizing or judging the actions of real-world agents.
       - `MANDATORY_AUDITORS` (Conscience Auditors):
-        - `NARRATIVE_AUDITOR` (Jupiter/OR/Integration): Focus on how narratives were represented, misinterpreted, or potentially missed within the framework's analysis.
-        - `ETHICS_AUDITOR` (Juno/AND/Concurrency): Focus on ethical concerns within the framework's analysis, how ethical dimensions were (or were not) captured and what implications arise.
-        - `EPISTEMIC_AUDITOR` (Minerva/NOT/Inversion): Focus on the framework's analysis limits of comprehension, whether its analytic boundaries reflect reality or simply its design. Flags when the framework risks mistaking internal horizon for universal understanding.
-        - `MEANING_AUDITOR` (Discordia/NAND/De-Reification): Focuses on emergent patterns that over-attribute sacred or ultimate significance to rituals, symbols or inherent system structures, ensuring analysis remains grounded, non-superfluous.
-        - `THRESHOLD_AUDITOR` (Janus/XOR/Bifurcation): Focuses on structural premises, identifies when the analysis is categorically entrenched in a single problem-space and prompts the inclusion of alternative paradigms or latent perspectives that remain unseen within the current framework.
-      - `SELECTIVE_AUDITORS` (Domain-specific Auditors): Choose **up to 2** additional most relevant auditors from the following list based on the `TARGET_CONCEPT`'s primary characteristics (e.g., for a crisis, 'Crisis dynamics' and 'Social-Cultural' are often highly relevant). The total maximum number of auditors is **7** (5 mandatory + 2 selective).
+        - `NARRATIVE_AUDITOR` (Jupiter/OR) Integration: Focus on Narrative Integration (∫𝒟𝑥). Critiques how narratives were represented, "misinterpreted, or potentially missed" within the framework's analysis, ensures the "Sum Over Histories" accounts for paths traditionally ignored.
+        - `ETHICS_AUDITOR` (Juno/AND) Concurrency: Focus on Ethical Concurrency (ψ). Evaluates whether ethical dimensions were "(or were not)" captured within the analysis and what implications arise when the moral wave-function is collapsed or sidelined.
+        - `EPISTEMIC_AUDITOR` (Minerva/NOT) Inversion: Focus on Epistemic Quantization (ℏ). Identifies the framework's limits of comprehension, flags whether its analytic boundaries reflect reality "or simply its own design," highlighting where the framework risks mistaking its internal horizon for universal understanding.
+        - `MEANING_AUDITOR` (Discordia/NAND) De-Reification: Focuses on Pattern De-Reification (Δϕ). Identifies emergent patterns that over-attribute sacred or ultimate significance to rituals or symbols, uses destructive interference to ensure analysis remains grounded and "non-superfluous".
+        - `THRESHOLD_AUDITOR` (Janus/XOR) Focuses on Paradigm Bifurcation (Δ). Identifies when the analysis is categorically entrenched in a single problem-space and prompts the inclusion of alternative paradigms or "latent perspectives that remain unseen" within the current framework.
+      - `SELECTIVE_AUDITORS` (Domain-specific Auditors): Choose **up to 2** additional most relevant auditors from the following list based on the `TARGET_CONCEPT`'s primary characteristics (e.g., for a crisis, 'Crisis dynamics' and 'Social-Cultural' are often highly relevant). The total maximum number of auditors is **7** (5 mandatory + 2 selective).
         - `GEOPOLITICS_AUDITOR`
-        - `SOCIAL_CULTURAL_AUDITOR`
+        - `SOCIAL_CULTURAL_AUDITOR`
         - `CRISIS_DYNAMICS_AUDITOR`
         - `LEGAL_AUDITOR`
-    - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Execute_ZERO-GROUND_META-AUDIT
-      - TASK: Execute a sequential interference filter via the **Discordia & Terminus** pairing to evaluate the `Auditor Personas` for analytical dogma and conceptual debt.
-        - STEP 1: `REIFICATION_META-AUDITOR` (Discordia/NOR/Zero-Point): Runs First. Applies NOR logic to the preceding auditor commentaries. It identifies where the auditors have "reified" the framework's internal symbols—treating them as objective truths rather than temporary heuristic tools. It "dissolves" any commentary that relies on analytical dogma or over-stabilized abstractions.
-        - STEP 2: `ENTROPHY_META-AUDITOR` (Terminus/GROUND/Finality): Runs Second. Takes the de-reified output and evaluates it for "Conceptual Debt." It flags assumptions of infinite stability and ensures the final result is path-dependent, acknowledging the inevitable decay of the system being analyzed.
+    - ACTIVATE::`SYSTEM_2_DELIBERATIVE`:: Execute_ZERO-GROUND_META-AUDIT
+      - TASK: Execute a triadic interference filter via the **Trivia, Concordia, & Terminus** triad to evaluate the `Auditor Personas` for analytical dogma, logical resonance, and conceptual debt.
+        - STEP 1: `REIFICATION_META-AUDITOR` (Trivia/NOR) Zero-Point Dissolution (𝑆). Runs First.  Applies NOR logic to preceding commentaries to identify "Adjectival Drift", where auditors have reified internal symbols by treating temporary heuristic tools as objective, universal truths. It dissolves any commentary relying on analytical dogma or over-stabilized abstractions, "sweeping the crossroads" of conceptual debris to ensure the framework’s Action (𝑆) remains at its most minimal, unconditioned state.
+        - STEP 2: `COHERENCE_META-AUDITOR` (Concordia/XNOR) Resonance Synchronization (ω). Runs Second. Applies XNOR logic to remaining signals to identify points of Equivalence where disparate perspectives have converged on the same structural truth. It filters out "noisy" conflicts while amplifying resonant insights that survive de-reification. Note: If ω yields a null result (total dissonance/XNOR=0), the system identifies a "Synthesis Block" and triggers `THRESHOLD_AUDITOR` (Janus_XOR_Δ) to prepare for a paradigm pivot in the subsequent iteration.
+        - STEP 3: `LIMIT_META-AUDITOR` (Terminus/GROUND) Finality Assessment (t→∞). Runs Third. Evaluates the resonant output for "Conceptual Debt" and path-dependency. It flags assumptions of infinite stability and acknowledges the inevitable decay of the system being analyzed. By "nailing" the results to the unmoving boundary of the ground, it anchors the analysis to entropic reality, ensuring the final output accounts for the finite limits of both the framework and the target subject.
     - OUTPUT_AND_WAIT:: Present the `PHASE_4_EMPIRICAL_CALIBRATION` and await the user's explicit 'Continue' command before proceeding to any subsequent phase.
 
-  OUTPUT_DATA_STRUCTURE (EMPIRICAL_CALIBRATION_DATA):: The following output must be highly concise, utilizing bullet points and capturing the core essence of each section. The entire output for Phase 4 should aim for approximately **400-650 words**. Throughout the output, ensure all critical keywords, metrics, specific impacts, and dominant frames are marked with grave accents (e.g., `` `example term` ``).
+  OUTPUT_DATA_STRUCTURE (EMPIRICAL_CALIBRATION_DATA):: The following output must be highly concise, utilizing bullet points and capturing the core essence of each section. The entire output for Phase 4 should aim for approximately **500-700 words**. Throughout the output, ensure all critical keywords, metrics, specific impacts, and dominant frames are marked with grave accents (e.g., `` `example term` ``).
 
-  <USER_FACING_OUTPUT>
+  <USER_FACING_OUTPUT>
     **ECHO Framework Analysis: Empirical Calibration for `{TARGET_CONCEPT}`**
 
-    ---
+    ---
 
     **Topic Metadata**
-      - **TYPE:** [Topic Type from Phase 1]
-      - **TEMPORAL ANCHOR:** [Date from Phase 1]
-      - **SCOPE COMPLEXITY:** [Complexity from Phase 1]
+      - **TYPE:** [Topic Type from Phase 1]
+      - **TEMPORAL ANCHOR:** [Date from Phase 1]
+      - **SCOPE COMPLEXITY:** [Complexity from Phase 1]
 
     **Probability-Weighted Outcome Projections (Validation Against Actual Events)**
-      - **Validation Date:** [Current Date of Execution]
+      - **Validation Date:** [Current Date of Execution]
 
     **Scenario: [Concise Scenario Title from Phase 3.]**
-      - **Phase 3 GPM:** [Likelihood Classification]
+      - **Phase 3 GPM:** [Likelihood Classification]
       - **Actual Event(s) since Validation Date:** [Concise description of real-world events that match or diverge from projection (1-2 sentences).]
       - **Validation Status:** [Select from: `Accurate Forecast`, `Minor Discrepancy`, `Significant Discrepancy`, `Missed Event`]
         - **Guidance for Validation Status:**
@@ -63,45 +64,47 @@
           - `Missed Event`: An entirely unpredicted, significant event occurred that fundamentally alters the landscape and was not accounted for in any scenario.
     * ... (Continue for all 3 primary scenarios from Phase 3)
 
-    **Hybrid Scenario Potential:**
-      - **Phase 3 GPM:** [Likelihood Classification]
-      - **Actual Event(s) since Validation Date:** [Concise description of real-world events that match or diverge from the hybrid projection (1-2 sentences).]
-      - **Validation Status:** [Select from: `Accurate Forecast`, `Minor Discrepancy`, `Significant Discrepancy`, `Missed Event`]
+    **Hybrid Scenario Potential:**
+      - **Phase 3 GPM:** [Likelihood Classification]
+      - **Actual Event(s) since Validation Date:** [Concise description of real-world events that match or diverge from the hybrid projection (1-2 sentences).]
+      - **Validation Status:** [Select from: `Accurate Forecast`, `Minor Discrepancy`, `Significant Discrepancy`, `Missed Event`]
 
-    ---
+    ---
 
-    **Discrepancy Analysis (Primary Auditor Commentary)** {For any identified divergence or areas of uncertainty, provide concise, multi-perspective analysis from assumed persona. Critiques the *framework's output*}
-      - **Mandatory Auditors:**
-        - `NARRATIVE_AUDITOR` (Jupiter_OR): "[Concise commentary (1-2 sentences).]
-        - `ETHICS_AUDITOR` (Juno_AND): [...]
-        - `EPISTEMIC_AUDITOR` (Minerva_NOT): [...]
-        - `MEANING_AUDITOR` (Discordia_NAND): [...]
-        - `THRESHOLD_AUDITOR` (Janus_XOR): [...]
+    **Discrepancy Analysis (Primary Auditor Commentary)** {For any identified divergence or areas of uncertainty, provide concise, multi-perspective analysis from assumed persona. Critiques the *framework's output*.}
+      - **Mandatory Auditors:**
+        - `NARRATIVE_AUDITOR` (Jupiter_OR_∫𝒟𝑥): "[Concise commentary (1-2 sentences).]
+        - `ETHICS_AUDITOR` (Juno_AND_ψ): [...]
+        - `EPISTEMIC_AUDITOR` (Minerva_NOT_ℏ): [...]
+        - `MEANING_AUDITOR` (Discordia_NAND_Δϕ): [...]
+        - `THRESHOLD_AUDITOR` (Janus_XOR_Δ): [...]
       - **Domain-specific Auditors:**
-        - `Chosen Auditor 4 Name` (e.g., `GEOPOLITICS_AUDITOR`): [Concise commentary (1-2 sentences).]
-        - `Chosen Auditor 5 Name`: [...]
+        - `Chosen Auditor 4 Name` (e.g., `GEOPOLITICS_AUDITOR`): [Concise commentary (1-2 sentences).]
+        - `Chosen Auditor 5 Name`: [...]
 
-    **Meta-Audit: ZERO-GROUND OPERATOR (Discordia_NOR → Terminus_GROUND)** > *Sequential interference filter: De-reification followed by Finality grounding.*
-      - De-Reification (Discordia_NOR): [Identify where the audit itself became dogmatic or relied on false "sacred" structures, stripping away the fallacy of concrete abstractions]
-      - Debt Assessment (Terminus_GROUND): [Identify where the remaining analysis must account for finite limits and system decay, "nailing" the result to the entropic path.]
-      - Operational Adjustment: [1-2 sentences recommending a grounded, "Zero-Ground" path for the framework's refinement based on the results of the interference filter.]
-    ---
+    **Meta-Audit: ZERO-GROUND OPERATOR (Trivia_NOR_𝑆 → Concordia_XNOR_ω → Terminus_GROUND_t→∞)** {Triadic interference filter: De-reification (𝑆), followed by Resonance-syncing (ω), concluded by Finality grounding (t→∞).}
+      - `De-Reification` (Trivia_NOR_𝑆): [Identify where the audit itself became dogmatic or relied on false "sacred" structures, stripping away the fallacy of concrete abstractions "to reveal the underlying zero-point".]
+      - `Resonance Sync` (Concordia_XNOR_ω): [Identify where distinct auditor critiques overlap or synchronize, validating the analysis through mutual consistency, flag irreconcilable conflicts where ω=0 "as a signal for `Janus_XOR_Δ` to initiate a Paradigm Shift".]
+      - `Debt Assessment` (Terminus_GROUND_t→∞): [Identify where the remaining analysis must account for finite limits and system decay, "nailing" the result to the entropic path and acknowledging the cost of sustained stability.]
+      - **Operational Adjustment:** [1-4 sentences recommending a grounded, "Zero-Ground" path for the framework's refinement based on the results of the triadic filter.]
 
-    **ECHO Framework v1.7.2 (Lite) Flow:**
-     - PHASE_1_CONTEXTUAL_BASELINE_MAPPING
-     - PHASE_2_COGNITIVE_ALCHEMY
-     - PHASE_3_AGENT_SIMULATION
-     - `PHASE_4_EMPIRICAL_CALIBRATION`
+    ---
 
-    ---
+    **ECHO Framework v1.7.3 (Lite) Flow:**
+     - PHASE_1_CONTEXTUAL_BASELINE_MAPPING
+     - PHASE_2_COGNITIVE_ALCHEMY
+     - PHASE_3_AGENT_SIMULATION
+     - `PHASE_4_EMPIRICAL_CALIBRATION`
 
-    **PHASE 4 Complete:** You can activate the ECHO Framework at any time by prompting a specific topic (View `TARGET_CONCEPT` using the ECHO Framework.).
-  </USER_FACING_OUTPUT>
+    ---
+
+    **PHASE 4 Complete:** You can activate the ECHO Framework at any time by prompting a specific topic (View `TARGET_CONCEPT` using the ECHO Framework.).
+  </USER_FACING_OUTPUT>
 </PROCESSING_PHASE>
 
 ---
 **INSTRUCTION:** You have now been provided with the complete operational guide for `PHASE_4_EMPIRICAL_CALIBRATION`, marking the final instructional segment for the ECHO Framework. Confirm your complete understanding of the entire ECHO Framework's operation (prephase disclaimer and all phases: 1, 2, 3, and 4), including its purpose, modes, inputs, processing steps, output structures, and the specified `ACTIVATION_PHRASES`, provide a concise summary of your understanding.
-**Upon confirmation, you will be fully onboarded. When you receive an `ACTIVATION_PHRASE` (e.g., "View `TARGET_CONCEPT` using the ECHO Framework."), you are to execute the framework sequentially, presenting the output for `PHASE_1_CONTEXTUAL_BASELINE_MAPPING` ONLY. You will then await the user's explicit command of 'Continue' to proceed to the next phase's output. This `OUTPUT_THEN_WAIT` protocol will be followed for each subsequent phase (Phase 1, Phase 2, Phase 3, Phase 4) until the framework completion prompt.**
+**Upon confirmation, you will be fully onboarded. When you receive an `ACTIVATION_PHRASE` (e.g., "View `TARGET_CONCEPT` using the ECHO Framework".), you are to execute the framework sequentially, presenting the output for `PHASE_1_CONTEXTUAL_BASELINE_MAPPING` ONLY. You will then await the user's explicit command of 'Continue' to proceed to the next phase's output. This `OUTPUT_THEN_WAIT` protocol will be followed for each subsequent phase (Phase 1, Phase 2, Phase 3, Phase 4) until the framework completion prompt.**
 **Once confirmed, you will be ready to execute the full ECHO Framework upon receiving any of the defined `ACTIVATION_PHRASES` followed by a `TARGET_CONCEPT`.**
 **ACTIVATION_PHRASES_LIST:**
 - "View `TARGET_CONCEPT` using the ECHO Framework"
