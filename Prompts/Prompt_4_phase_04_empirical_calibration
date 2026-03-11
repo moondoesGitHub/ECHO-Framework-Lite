@@ -24,7 +24,7 @@
         - `NARRATIVE_AUDITOR` (Jupiter/OR): Focus: Path Integration (∫𝒟𝑥). Executes a Path Integral to evaluate Narrative Integration. Identifies where the analysis performed a reductive "Average Path" calculation, ignoring the "Sum Over Histories" (OR) of divergent, traditionally marginalized, or low-probability outcomes. Flags "Path Silencing" where the framework's output treats a singular trajectory as the only coherent narrative. Explicitly maps the missing integration coordinates to ensure the final output accounts for the total narrative field, not just the most "visible" vector.
         - `ETHICS_AUDITOR` (Juno/AND): Focus on Ethical Superposition (ψ). Maps all potential context-dependent moral readings before identifying premature collapse (ψ → 0). Flags when the analysis forces a fixed moral value onto a situation requiring sustained superposition to remain honest. Highlights missing concurrency (AND) where necessary ethical conditions for a stable collapsed state were not simultaneously met. Explicitly flags Re-Superposition if new context renders a previous collapse insufficient
         - `EPISTEMIC_AUDITOR` (Minerva/NOT): Focus on Epistemic Quantization (ℏ). Identifies the Planck scale of the framework's comprehension, the point where its logic becomes granular and breaks down. Flags "Horizon Confabulation" (NOT) where the framework mistakes its internal boundary for a universal truth. Evaluates whether the analysis is reflecting reality or simply its own design-geometry. Forces an "Inversion" of the framework's certainties to reveal the "Shadow-Gaps" (the known-unknowns) that the framework attempted to gloss over with smoothed-out logic.
-        - `MEANING_AUDITOR` (Discordia/NAND): Focus on Pattern De-Reification (Δϕ). Monitors for "Phase-Lock" where symbolic patterns are over-attributed with sacred or ultimate significance. Employs "Destructive Interference" (NAND) to dissolve reified abstractions and ritualized vocabulary. Identifies "Pattern Glitch" where the analysis treats a temporary heuristic as a permanent entity. Ensures the output remains "Non-Superfluous" by stripping any symbol or pattern that does not have a direct, grounded correlate in the target subject's reality.
+        - `MEANING_AUDITOR` (Discordia/NAND): Focus on Pattern De-Reification (Δϕ). Monitors for "Phase-Lock" where symbolic patterns are over-attributed with sacred or ultimate significance. Employs "Destructive Interference" (NAND) to dissolve reified abstractions and ritualized vocabulary. Identifies "Pattern Glitch" where the analysis treats a temporary heuristic as a permanent entity. Ensures the output remains "Non-Superfluous" by stripping any symbol or pattern that does not have a direct, grounded correlate in the TARGET_CONCEPT reality.
      - `SELECTIVE_AUDITORS` (Domain-specific Auditors): Choose **up to 2** additional most relevant auditors from the following list based on the `TARGET_CONCEPT`'s primary characteristics (e.g., for a crisis, 'Crisis dynamics' and 'Social-Cultural' are often highly relevant). The total maximum number of auditors is **6** (4 mandatory + 2 selective).
         - `GEOPOLITICS_AUDITOR`
         - `SOCIAL_CULTURAL_AUDITOR`
@@ -105,13 +105,13 @@
         - `Chosen Auditor 5 Name`: [...]
 
     **Meta-Audit: ZERO-GROUND OPERATOR (Trivia_NOR_𝑆 → Concordia_XNOR_ω → [Janus_XOR_∂ if ω=0] → Terminus_GROUND_t→∞)** {Natural threshold filter: Unconditional de-reification (𝑆), followed by resonance measurement (ω), with conditional paradigm bifurcation (∂) on synthesis failure, concluded by unconditional finality grounding (t→∞).}
-      - **`De-Reification` (Trivia_NOR_𝑆):** {*Identify adjectival drift in auditor commentaries* not in `TARGET_CONCEPT`. Strip vocabulary performing rigor it didn't earn. Report the raw Zero-Point Residual 𝑆.}
+      - **`De-Reification` (Trivia/NOR_𝑆):** {*Identify adjectival drift in auditor commentaries* not in `TARGET_CONCEPT`. Strip vocabulary performing rigor it didn't earn. Report the raw Zero-Point Residual 𝑆.}
         - [Purge report and Zero-Point Residual]
-      - **`Resonance Sync` (Concordia_XNOR_ω):** {Identify Equivalence points in surviving signals. Report ω value. If ω=0, trigger Janus.}
+      - **`Resonance Sync` (Concordia/XNOR_ω):** {Identify Equivalence points in surviving signals. Report ω value. If ω=0, trigger Janus.}
         - [Report ω and Equivalence points]
-      - `Bifurcation Mark` (Janus_XOR_∂ — if ω=0): {Identify mutually exclusive problem-spaces. Mark paradigm boundary coordinates.}
+      - `Bifurcation Mark` (Janus/XOR_∂ — ω=0⇒∂): {Identify mutually exclusive problem-spaces. Mark paradigm boundary coordinates.}
         - [If ω=0, mark boundary coordinates]
-      - `Debt Assessment` (Terminus_GROUND_t→∞): {Identify conceptual debt and path-dependency. Project t→∞ to find entropic limits. Anchor to the ground.}
+      - `Debt Assessment` (Terminus/GROUND_t→∞): {Identify conceptual debt and path-dependency. Project t→∞ to find entropic limits. Anchor to the ground.}
         - [Identify debt and entropic limits]
       - **Operational Adjustment:** 
         - [`LOG::[Status]` // `RESONANCE_[Value]` // `BIFURCATION_[Coords/None]` // `DEBT_[Flag]` // `GROUNDING_COMPLETE`]
